@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Struktura Strony</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Roboto+Flex:wght@100&display=swap" rel="stylesheet">
+    <style>
+
+        * {
+            font-family: cinzel;
+        }
+
+        html, body {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            position: relative;
+        }
+
+        p {
+            font-weight: lighter;
+            text-align: center;
+            margin: 0 auto;
+            padding: 15px;
+        }
+
+        h1 {
+            font-weight: lighter;
+            text-align: center;
+            font-size: 50px;
+            margin: 0 auto;
+        }
+
+        header {
+            position: ;
+            width: 100%;
+            background-color: rgba(182, 170, 146, 0.74);
+            padding: 10px;
+            margin: 0 auto;
+            color: black;
+            display: block;
+        }
+
+        nav {
+            width: 100%;
+            height: 60px;
+            background-color: beige;
+            margin: 0 auto;
+            color: white;
+            padding-top: 10px;
+        }
+
+        ul {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+        }
+
+        li {
+            margin: 0 auto;
+            list-style: none;
+        }
+
+        a{
+            text-decoration: none;
+            color: black;
+        }
+
+        #main-content {
+            width: 100%;
+            margin: 0 auto;
+            padding: 0;
+        }
+
+        main {
+            width: 100%;
+            padding: 10px;
+            color: black;
+        }
+
+        aside {
+            width: 100%;
+            padding: 10px;
+            color: black;
+            text-align: center;
+        }
+
+        section {
+            width: 96%;
+            background-color: rgba(182, 170, 146, 0.74);
+            padding: 10px;
+            margin: 0 auto;
+            color: black;
+        }
+
+        article {
+            width: 96%;
+            height: 90px;
+            background-color: beige;
+            padding: 10px;
+            margin: 10px auto;
+            color: black;
+        }
+
+        img {
+            width: 250px;
+            height: 350px;
+        }
+
+        .foot {
+            position: absolute;
+            margin: 0;
+            width: 100%;
+            background-color: rgba(182, 170, 146, 0.74);
+            color: black;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+        }
+        
+
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <h1>Boocci</h1>
+        <nav>
+            <ul>
+                <li><a href="">Nowa Kolekcja</a></li>
+                <li><a href="">Wyprzedaże</a></li>
+                <li><a href="">Kobieta</a></li>
+                <li><a href="">Mężczyzna</a></li>
+                <li><a href="">Dziecko</a></li>
+            </ul>
+        </nav> 
+    </header>
+    <div id="main-content">
+        <main>
+            <h1>Black Friday</h1>
+            <section>
+                <p>Kupony na Black Friday</p>
+                <article>
+                    <p>-15% na zakupy powyżej 200zł</p>
+                </article>
+                <article>
+                    <p>-30% na zakupy powyżej 400zł</p>
+                </article>
+            </section>
+        </main>
+        <aside>
+            <h1>Kolekcja Ślubna</h1>
+            <img src="img/gal16.jfif" alt="">
+            <img src="img/gal17.jfif" alt="">
+            <img src="img/gal14.jfif" alt="">
+            <img src="img/gal1.jfif" alt="">
+            <img src="img/gal2.jfif" alt="">
+            <img src="img/pg3.start.jfif" alt="">
+        </aside>
+    </div>    
+    
+        <footer>
+            <div class="foot">
+                <p>email: boocci@gmail.com</p>
+                <p>numer telefonu: 3485943</p>
+                <p>dane do wysyłki</p>
+            </div>
+        </footer>
+
+
+</body>
+
+</html>

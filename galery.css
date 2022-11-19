@@ -1,0 +1,51 @@
+body {
+    box-sizing: border-box;
+    background-color: black;
+    max-width: 100vw;
+    font-family: roboto flex;
+    color: whitesmoke;
+    position: relative;
+}
+
+h1 {
+    padding: 2%;
+    text-align: center;
+    font-family: cinzel;
+    font-weight: lighter;
+    font-size: 40px;
+}
+
+.photo {
+    padding: 15px;
+    text-align: center;
+}
+
+img {
+    width: 15%;
+    height: 25%;
+    padding: 15px;
+}
+
+footer {
+    position: absolute;
+    margin: 0 0;
+}
+
+.end {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100vw;
+    height: 6%;
+    background-color: whitesmoke;
+    color: black;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.list {
+    margin: auto;
+}
